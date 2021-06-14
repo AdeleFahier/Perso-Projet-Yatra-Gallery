@@ -1,0 +1,85 @@
+body {
+  background-color: #4F6457;
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+  scroll-padding-top: 20px;
+}
+
+#mainNavbar {
+  font-size: 1.8vw;
+  font-weight: 100;
+}
+#mainNavbar button {
+  font-size: 1rem;
+  margin: 3px;
+  border: none;
+}
+#mainNavbar .navbar-brand {
+  color: #D9B44A;
+  font-size: 2.4vw;
+}
+#mainNavbar .nav-link {
+  color: white;
+}
+#mainNavbar .nav-link:hover {
+  color: #D9B44A;
+}
+
+#headingGroup span {
+  color: #D9B44A;
+}
+#headingGroup h1 {
+  letter-spacing: 0.3rem;
+  font-weight: 100;
+  font-size: 3.8vw;
+}
+
+#cameraIcon {
+  font-size: 2.4vw;
+  color: #dfede6;
+}
+
+.lead {
+  font-size: 1.5vw;
+  color: #dfede6;
+  letter-spacing: 0.1rem;
+}
+
+h2 {
+  color: #D9B44A;
+  font-weight: 200;
+  font-size: 2.4vw;
+}
+
+.navbar.scrolled {
+  background: #304136;
+}
+
+footer div {
+  background: #304136;
+}
+footer h1 {
+  color: #D9B44A;
+  font-weight: 200;
+  font-size: 4vw;
+}
+footer i {
+  color: white;
+  padding: 0.5rem;
+}
+footer h2 {
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+  .lead {
+    font-size: 2.3vw;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
