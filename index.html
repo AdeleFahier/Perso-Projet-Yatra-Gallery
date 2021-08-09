@@ -2,153 +2,156 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="La galerie Yatra : photos de voyage" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Galerie Yatra</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="Description" content="La galerie Yatra : photos de voyage" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Galerie Yatra</title>
 </head>
 
 <body>
-    <!-- REGLES NAVBAR -->
-    <!-- "navbar-expand-md" est le breakpoint pour l'expansion de la navbar à 768px -->
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-        <!-- "navbar-brand" classe pour le nom de la compagnie, du projet, du produit. Element qui ne collapse pas et qui reste tjrs visible-->
-        <a href="#" class="navbar-brand">YATRA</a>
-        <!-- Pour créer le bouton toggler. On rajoute un aria-label pour les screen reader-->
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Les classes "collapse" et "navbar-collapse" permettent de grouper et de cacher le contenu de la navbar par rapport au breakpoint du parent nav. Ensuite nous linkons l'ID au data-target du button-->
-        <div class="collapse navbar-collapse" id="navLinks">
-            <ul class="navbar-nav text-uppercase">
-                <li class="nav-item"><a href="#aPropos" class="nav-link">La galerie</a></li>
-                <li class="nav-item"><a href="#artistes" class="nav-link">Artistes</a></li>
-                <li class="nav-item"><a href="#infos" class="nav-link">infos</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- SECTION HEADING -->
-    <section class="container-fluid mx-0 ">
-        <div class="row align-items-center">
-            <div class="col-md-6 p-0 text-uppercase">
-                <div id="headingGroup" class="text-white text-center d-none d-lg-block">
-                    <h1>Yatra<span>/</span>galerie</h1>
-                    <h1>Yatra<span>/</span>talents</h1>
-                    <h1>Yatra<span>/</span>voyage</h1>
-                    <h1>Yatra<span>/</span>photos</h1>
-                </div>
-            </div>
-            <div class="col-lg-6 p-0">
-                <img id="Home" class="img-fluid" src="Images/smith-major.jpg" alt="Photo by Harold Wainwright on Unsplash">
-            </div>
-        </div>
-    </section>
-    <!-- SECTION 2 -->
-    <section class="container-fluid mx-0">
-        <div class="row align-items-center">
-            <div class="col-md-6 p-0 order-2 order-md-1">
-                <img class="img-fluid" src="Images/harold-wainwright.jpg" alt="">
-            </div>
-            <div class="col-md-6 p-0 text-center order-1 order-md-2">
-                <div class="row justify-content-center m-0">
-                    <div class="col-11 col-md-10  col-lg-8 p-0 my-5">
-                        <h2 id="aPropos" class="text-uppercase">Yatra Galerie</h2>
-                        <ion-icon id="cameraIcon" class="d-none d-md-inline-block" name="camera-outline"></ion-icon>
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perferendis,
-                            maiores optio reiciendis quis unde nisi laboriosam impedit ex voluptatibus, nobis eos
-                            distinctio eligendi voluptates soluta, dicta porro eum provident. Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Rem ab sapiente, ipsum quas animi blanditiis harum amet odio
-                            placeat !</p>
-                    </div>
+	<!-- "navbar-expand-md" est le breakpoint pour l'expansion de la navbar à 768px -->
+	<nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+		<!-- "navbar-brand" classe pour le nom de la compagnie, du projet, du produit. Element qui ne collapse pas et qui reste tjrs visible-->
+		<a href="#" class="navbar-brand">YATRA</a>
+		<!-- Pour créer le bouton toggler. On rajoute un aria-label pour les screen reader-->
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- Les classes "collapse" et "navbar-collapse" permettent de grouper et de cacher le contenu de la navbar par rapport au breakpoint du parent nav. Ensuite nous linkons l'ID au data-target du button-->
+		<div class="collapse navbar-collapse" id="navLinks">
+			<ul class="navbar-nav text-uppercase">
+				<li class="nav-item"><a href="#aPropos" class="nav-link">La galerie</a></li>
+				<li class="nav-item"><a href="#artistes" class="nav-link">Artistes</a></li>
+				<li class="nav-item"><a href="#infos" class="nav-link">infos</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- SECTION HEADING -->
+	<section class="container-fluid mx-0 ">
+		<div class="row align-items-center">
+			<div class="col-md-6 p-0 text-uppercase">
+				<div id="headingGroup" class="text-white text-center d-none d-lg-block">
+					<h1>Yatra<span>/</span>galerie</h1>
+					<h1>Yatra<span>/</span>talents</h1>
+					<h1>Yatra<span>/</span>voyage</h1>
+					<h1>Yatra<span>/</span>photos</h1>
+				</div>
+			</div>
+			<div class="col-lg-6 p-0">
+				<img id="Home" class="img-fluid" src="Images/smith-major.jpg"
+					alt="Photo by Harold Wainwright on Unsplash">
+			</div>
+		</div>
+	</section>
+	<!-- SECTION 2 -->
+	<section class="container-fluid mx-0">
+		<div class="row align-items-center">
+			<div class="col-md-6 p-0 order-2 order-md-1">
+				<img class="img-fluid" src="Images/harold-wainwright.jpg" alt="">
+			</div>
+			<div class="col-md-6 p-0 text-center order-1 order-md-2">
+				<div class="row justify-content-center m-0">
+					<div class="col-11 col-md-10  col-lg-8 p-0 my-5">
+						<h2 id="aPropos" class="text-uppercase">Yatra Galerie</h2>
+						<ion-icon id="cameraIcon" class="d-none d-md-inline-block" name="camera-outline"></ion-icon>
+						<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perferendis,
+							maiores optio reiciendis quis unde nisi laboriosam impedit ex voluptatibus, nobis eos
+							distinctio eligendi voluptates soluta, dicta porro eum provident. Lorem ipsum dolor sit amet
+							consectetur adipisicing elit. Rem ab sapiente, ipsum quas animi blanditiis harum amet odio
+							placeat !</p>
+					</div>
 
-                </div>
-            </div>
-        </div>
-    </section>
-        <!-- SECTION 3 -->
-        <section class="container-fluid mx-0">
-            <div class="row align-items-center">
-                <div class="col-md-6 p-0 text-center">
-                    <div class="row justify-content-center m-0">
-                        <div class="col-11 col-md-10  col-lg-8 p-0 my-5">
-                            <h2 id="artistes" class="text-uppercase">Les artistes</h2>
-                            <ion-icon id="cameraIcon" class="d-none d-md-inline-block" name="earth-outline"></ion-icon>
-                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perferendis,
-                                maiores optio reiciendis quis unde nisi laboriosam impedit ex voluptatibus, nobis eos
-                                distinctio eligendi voluptates soluta, dicta porro eum provident. Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. Rem ab sapiente, ipsum quas animi blanditiis harum amet odio
-                                placeat !</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 p-0">
-                    <img class="img-fluid" src="Images/f-a-grafie.jpg" alt="">
-                </div>
-            </div>
-        </section>
-    <!-- SECTION 4 -->
-    <section class="container-fluid mx-0">
-        <div class="row align-items-center">
-            <div class="col-md-6 p-0 order-2 order-md-1">
-                <img class="img-fluid" src="Images/lerone-pieters.jpg" alt="">
-            </div>
-            <div class="col-md-6 p-0 text-center order-1 order-md-2">
-                <div class="row justify-content-center m-0">
-                    <div class="col-11 col-md-10  col-lg-8 p-0 my-5">
-                        <h2 id="infos" class="text-uppercase">Informations</h2>
-                        <ion-icon id="cameraIcon" class="d-none d-md-inline-block" name="ticket-outline"></ion-icon>
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perferendis,
-                            maiores optio reiciendis quis unde nisi laboriosam impedit ex voluptatibus, nobis eos
-                            distinctio eligendi voluptates soluta, dicta porro eum provident. Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Rem ab sapiente, ipsum quas animi blanditiis harum amet odio
-                            placeat !</p>
-                    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- SECTION 3 -->
+	<section class="container-fluid mx-0">
+		<div class="row align-items-center">
+			<div class="col-md-6 p-0 text-center">
+				<div class="row justify-content-center m-0">
+					<div class="col-11 col-md-10  col-lg-8 p-0 my-5">
+						<h2 id="artistes" class="text-uppercase">Les artistes</h2>
+						<ion-icon id="cameraIcon" class="d-none d-md-inline-block" name="earth-outline"></ion-icon>
+						<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perferendis,
+							maiores optio reiciendis quis unde nisi laboriosam impedit ex voluptatibus, nobis eos
+							distinctio eligendi voluptates soluta, dicta porro eum provident. Lorem ipsum dolor sit amet
+							consectetur adipisicing elit. Rem ab sapiente, ipsum quas animi blanditiis harum amet odio
+							placeat !</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 p-0">
+				<img class="img-fluid" src="Images/f-a-grafie.jpg" alt="">
+			</div>
+		</div>
+	</section>
+	<!-- SECTION 4 -->
+	<section class="container-fluid mx-0">
+		<div class="row align-items-center">
+			<div class="col-md-6 p-0 order-2 order-md-1">
+				<img class="img-fluid" src="Images/lerone-pieters.jpg" alt="">
+			</div>
+			<div class="col-md-6 p-0 text-center order-1 order-md-2">
+				<div class="row justify-content-center m-0">
+					<div class="col-11 col-md-10  col-lg-8 p-0 my-5">
+						<h2 id="infos" class="text-uppercase">Informations</h2>
+						<ion-icon id="cameraIcon" class="d-none d-md-inline-block" name="ticket-outline"></ion-icon>
+						<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perferendis,
+							maiores optio reiciendis quis unde nisi laboriosam impedit ex voluptatibus, nobis eos
+							distinctio eligendi voluptates soluta, dicta porro eum provident. Lorem ipsum dolor sit amet
+							consectetur adipisicing elit. Rem ab sapiente, ipsum quas animi blanditiis harum amet odio
+							placeat !</p>
+					</div>
 
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-md-3 d-flex align-items-center justify-content-center">
-                <h1 class="p-2">Yatra</h1>
-            </div>
-            <div class="col-12 col-md-3 d-flex flex-column align-items-center justify-content-center">
-                <h2>Rejoignez-nous</h2>
-                <div>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-pinterest"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 p-3 d-flex justify-content-center ">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.787230166476!2d5.4495578152716275!3d43.52762946855983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c98dbe08840375%3A0x8827de1deb0d7ea3!2s18%20Rue%20Thiers%2C%2013100%20Aix-en-Provence!5e0!3m2!1sfr!2sfr!4v1616952149429!5m2!1sfr!2sfr" width="220" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-    </footer>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-12 col-md-3 d-flex align-items-center justify-content-center">
+				<h1 class="p-2">Yatra</h1>
+			</div>
+			<div class="col-12 col-md-3 d-flex flex-column align-items-center justify-content-center">
+				<h2>Rejoignez-nous</h2>
+				<div>
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-pinterest"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 p-3 d-flex justify-content-center ">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.787230166476!2d5.4495578152716275!3d43.52762946855983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c98dbe08840375%3A0x8827de1deb0d7ea3!2s18%20Rue%20Thiers%2C%2013100%20Aix-en-Provence!5e0!3m2!1sfr!2sfr!4v1616952149429!5m2!1sfr!2sfr"
+					width="220" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</div>
+	</footer>
 
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    <script src="https://kit.fontawesome.com/0f82c7139a.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/0f82c7139a.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav = $("#mainNavbar");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height())
-            })
-        })
-    </script>
+	<script>
+		$(function () {
+			$(document).scroll(function () {
+				var $nav = $("#mainNavbar");
+				$nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height())
+			})
+		})
+	</script>
 
 </body>
 
